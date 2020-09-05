@@ -1,0 +1,8 @@
+W każdym z kodów na samym końcu, po implementacji klas, jest pare zmiennych, których znaczenia łatwo się domyslić,
+a wedle własnych potrzeb może być warto je pozmieniać.
+Kod umożliwający rozegranie gry przeciwko komputerowi jest w formacie notebookowym ze względu na to, 
+że przebieg gry ilustrowany jest za pomocą wykresów stworzonych w matplotlib. Ze znanych mi metod, najwygodniej jest puścić ten kod
+korzystając ze Spyder, w notebooku też w miare w porządku się gra. Puszczenie tego kodu po prostu jak plik .py z konsoli nie jest najwygodniejsze,
+bo po każdym ruchu trzeba wyłączać wykres z planszą. Ruchy są tak dobrane, żeby wygodnie było sterowac klawiaturą numeryczną.
+
+
