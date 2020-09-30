@@ -6,7 +6,7 @@ W folderze 'nowe_poprawne_pliki' znajdują się pliki, które realizują to samo
 ## Folder nowe_poprawne_pliki
 Krótkie opisy plików z tego folderu:
 #### moje_klasy.py
-W tym pliku zaimplementowane są klasy wykorzystane do implementacji gry w papierowe piłkarzyki oraz klasy reprezentujące graczy.
+W tym pliku zaimplementowane są klasy wykorzystane do implementacji gry w papierowe piłkarzyki, w tym klasy reprezentujące graczy.
 #### trenowanie_sieci.py
 Plik, który realizuje trenowanie sieci neuronowych wykorzystywanych do sterowania każdym z graczy. W planach jest stworzenie nowych skryptów, które pozwolą na to, aby każdy z graczy korzystał z tej samej sieci, co może skutkować bardziej efektywnym trenowaniem sieci. Plik ten tworzy foldery, w których zapisywane są pliki reprezentujące sieci neuronowe. Dodatkowo wykorzystywany jest plik 'liczba_gier.txt' w celu zapamiętywania liczby dotychczas rozegranych gier. Ta liczba jest istotna z tego względu, że w zaimplementowanej metodzie trenowania wyznaczana jest przez nią szansa na wykonanie losowego ruchu przez agenta. 
 #### gra_miedzy_botami.py
