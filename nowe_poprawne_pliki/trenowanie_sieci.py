@@ -53,7 +53,7 @@ for i in range(liczba_rozegranych_gier, docelowa_liczba_gier + 1):
         if not kolejny_ruch:
             kolejnosc = not kolejnosc
     
-    if i % 10 == 0:
+    if i % 100 == 0:
         g_L.model.save(folder_gracz_lewy)
         g_P.model.save(folder_gracz_prawy)
         plik_liczba_gier = open("liczba_gier.txt","w")
